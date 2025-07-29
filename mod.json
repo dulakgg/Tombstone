@@ -1,0 +1,31 @@
+{
+	"geode": "4.6.3",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "dulak.thombstone",
+	"name": "Thombstone - Epic Death Animations",
+	"version": "v1.0.0",
+	"developer": "Dulak",
+	"description": "Epic death animations for new best!",
+	"settings": {
+		"delay-duration": {
+			"name": "Animation Duration",
+			"description": "Duration of the animation in seconds",
+			"type": "int",
+			"default": 5,
+			"min": 1,
+			"max": 10
+		},
+		"animation-type": {
+			"name": "Animation Type",
+			"description": "Choose which death animation to play",
+			"type": "string",
+			"default": "explosion",
+			"one-of": ["explosion", "ascension"]
+		}
+	}
+}
