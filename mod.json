@@ -7,6 +7,9 @@
 	"version": "v1.0.0",
 	"developer": "Dulak",
 	"description": "Epic death animations for new best!",
+	"links": {
+        "source": "https://github.com/dulakgg/Tombstone"
+    },
 	"settings": {
 		"delay-duration": {
 			"name": "Animation Duration",
