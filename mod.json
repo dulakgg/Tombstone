@@ -1,13 +1,9 @@
 {
 	"geode": "4.6.3",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074"
-	},
-	"id": "dulak.thombstone",
-	"name": "Thombstone - Epic Death Animations",
+		"win": "2.2074"	},
+	"id": "dulak.tombstone",
+	"name": "Tombstone",
 	"version": "v1.0.0",
 	"developer": "Dulak",
 	"description": "Epic death animations for new best!",
@@ -25,7 +21,8 @@
 			"description": "Choose which death animation to play",
 			"type": "string",
 			"default": "explosion",
-			"one-of": ["explosion", "ascension"]
+			"one-of": ["explosion", "ascension", "slaughterhouse"]
 		}
-	}
+	},
+	"tags": ["customization", "enhancement", "offline"]
 }
