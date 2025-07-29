@@ -970,8 +970,7 @@ void DeathAnimations::createSlaughterhouseAnimation(PlayLayer* playLayer, CCPoin
     }
     
     log::info("💀 SLAUGHTERHOUSE COMPLETE: Player has been BRUTALLY destroyed!");
-},
-
+}
 // ===============================================================================================
 // ANIMATION SELECTOR - Choose which animation to play based on mod settings
 // Add new animations here by:
@@ -987,8 +986,6 @@ void DeathAnimations::createSelectedAnimation(PlayLayer* playLayer, CCPoint play
         createAscensionAnimation(playLayer, playerPos);
     } else if (animationType == "slaughterhouse") {
         createSlaughterhouseAnimation(playLayer, playerPos);
-    } else if (animationType == "none") {
-        createNoAnimation(playLayer, playerPos);
     } else {
         createExplosionAnimation(playLayer, playerPos);
     }
